@@ -13,3 +13,8 @@ def take_a_number(current_line, name)
   puts "Welcome, #{name}. You are number #{current_line.length} in line."
 end
 
+def now_serving(current_line)
+  first_in_line = current_line.shift
+  
+end
+
