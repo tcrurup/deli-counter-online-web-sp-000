@@ -14,7 +14,6 @@ def take_a_number(current_line, name)
 end
 
 def now_serving(current_line)
-  first_in_line = current_line.shift
-  
+  current_line.length > 0 ? first_in_line = current_line.shift : "There is nobody waiting to be served"
 end
 
