@@ -1,7 +1,6 @@
 require 'pry'
 
-pline = ['Tony', 'Cody']
-line(pline)
+
 
 def line(deli_line) 
   current_line = "The line is currently: "
@@ -9,3 +8,6 @@ def line(deli_line)
   current_line
   binding.pry
 end
+
+pline = ['Tony', 'Cody']
+line(pline)
